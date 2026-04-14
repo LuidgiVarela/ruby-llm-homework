@@ -1,42 +1,31 @@
-# Como LLM Pode Promover o Aprendizado e o Desenvolvimento de Aplicacoes Ruby?
+# Como LLM Pode Promover o Aprendizado e o Desenvolvimento de Aplicações Ruby?
 
-## Introducao
+## Introdução
 
-Este repositório apresenta a resolucao do Homework 01 da disciplina, desenvolvida em Ruby, com foco nao apenas na implementacao dos exercicios, mas tambem na reflexao sobre o processo de aprendizagem. O trabalho parte da seguinte questao: como modelos de linguagem de grande porte (LLMs) podem apoiar o estudo da linguagem Ruby e a construcao de solucoes para problemas de programacao?
+Este repositório apresenta a resolução do Homework 01 da disciplina, desenvolvida em Ruby, com foco não apenas na implementação dos exercícios, mas também na reflexão sobre o processo de aprendizagem. O trabalho parte da seguinte questão: como modelos de linguagem de grande porte (LLMs) podem apoiar o estudo da linguagem Ruby e a construção de soluções para problemas de programação?
 
-Ao longo das Partes 01 a 06, foram explorados temas importantes da linguagem, como manipulacao de strings, uso de hashes e arrays, tratamento de excecoes, recursao, orientacao a objetos, heranca, metaprogramacao e extensao de classes nativas. A documentacao foi organizada para registrar tanto as solucoes produzidas quanto a analise critica do caminho adotado.
+Ao longo das Partes 01 a 06, foram explorados temas importantes da linguagem, como manipulação de strings, uso de hashes e arrays, tratamento de exceções, recursão, orientação a objetos, herança, metaprogramação básica e extensão de classes nativas. A documentação foi organizada para registrar tanto as soluções produzidas quanto a análise crítica do caminho adotado.
 
 ## Objetivo
 
-O objetivo deste trabalho e documentar a resolucao completa dos exercicios do Homework 01 e analisar, de forma critica, como o uso de LLM pode contribuir para compreender conceitos de Ruby, comparar alternativas de implementacao e apoiar a escrita de codigo com maior clareza e consistencia.
+O objetivo deste trabalho é documentar a resolução completa dos exercícios do Homework 01 e analisar, de forma crítica, como o uso de LLM pode contribuir para compreender conceitos de Ruby, comparar alternativas de implementação e apoiar a escrita de código com maior clareza e consistência.
 
 ## Arquivos do Projeto
 
-- `part1a.rb`: verificacao de palindromos em strings
+- `part1a.rb`: verificação de palíndromos em strings
 - `part1b.rb`: contagem de palavras em uma string
 - `part2a.rb`: vencedor de uma partida de pedra-papel-tesoura
 - `part2b.rb`: vencedor de um torneio de pedra-papel-tesoura
 - `part3.rb`: agrupamento de anagramas
 - `part4.rb`: classes `Dessert` e `JellyBean`
-- `part5.rb`: implementacao de `attr_accessor_with_history`
-- `part6.rb`: extensao de `Numeric`, `String` e `Enumerable`
+- `part5.rb`: implementação de `attr_accessor_with_history`
+- `part6.rb`: extensão de `Numeric`, `String` e `Enumerable`
 
 ## Como Executar
 
-Os arquivos podem ser verificados individualmente com o interpretador Ruby:
+Os arquivos não possuem uma interface única de execução via terminal, pois cada parte define métodos ou classes para resolver um exercício específico. Por isso, a forma mais didática de uso é carregar cada arquivo no interpretador Ruby e testar os métodos manualmente.
 
-```bash
-ruby -c part1a.rb
-ruby -c part1b.rb
-ruby -c part2a.rb
-ruby -c part2b.rb
-ruby -c part3.rb
-ruby -c part4.rb
-ruby -c part5.rb
-ruby -c part6.rb
-```
-
-Se desejar testar algum metodo manualmente, uma forma simples e abrir o interpretador Ruby e carregar o arquivo:
+Por exemplo:
 
 ```bash
 irb
@@ -44,16 +33,24 @@ load './part1a.rb'
 palindrome?('A man, a plan, a canal -- Panama')
 ```
 
-O mesmo procedimento pode ser repetido para os demais arquivos.
+O mesmo procedimento pode ser repetido para os demais arquivos, adaptando a chamada ao método ou à classe correspondente.
 
-## Organizacao da Documentacao
+Caso o objetivo seja apenas verificar se o arquivo está sintaticamente correto, é possível usar o comando abaixo:
 
-Este `README.md` funciona como uma visao geral do trabalho. O relatorio analitico completo pode ser colocado na Wiki do repositório, com secoes especificas para a resolucao dos exercicios, comparacao entre alternativas de implementacao, uso de LLM no processo de aprendizagem e conclusoes finais.
+```bash
+ruby -c part1a.rb
+```
 
-## Versao Curta da Introducao
+Esse comando apenas valida a sintaxe do arquivo; ele não executa os exemplos nem produz saídas funcionais do exercício por conta própria.
 
-Este trabalho documenta a resolucao do Homework 01 em Ruby e analisa como o uso de LLM pode apoiar o aprendizado da linguagem e o desenvolvimento das solucoes. Alem da implementacao das Partes 01 a 06, o repositório registra as principais estruturas utilizadas, alternativas de abordagem e uma reflexao critica sobre o processo.
+## Organização da Documentação
 
-## Versao Curta da Conclusao
+Este `README.md` funciona como uma visão geral do trabalho. O relatório analítico completo integra a documentação do repositório e pode ser organizado na Wiki com seções específicas para a resolução dos exercícios, comparação entre alternativas de implementação, uso de LLM no processo de aprendizagem e conclusões finais.
 
-A experiencia mostrou que o uso de LLM pode acelerar a compreensao de conceitos e a revisao de solucoes em Ruby, desde que o estudante mantenha postura critica diante das respostas. Mais do que gerar codigo, a principal contribuicao esteve em apoiar comparacoes de abordagem, esclarecer duvidas pontuais e fortalecer a analise das decisoes de implementacao.
+## Versão Curta da Introdução
+
+Este trabalho documenta a resolução do Homework 01 em Ruby e analisa como o uso de LLM pode apoiar o aprendizado da linguagem e o desenvolvimento das soluções. Além da implementação das Partes 01 a 06, o repositório registra as principais estruturas utilizadas, alternativas de abordagem e uma reflexão crítica sobre o processo.
+
+## Versão Curta da Conclusão
+
+A experiência mostrou que o uso de LLM pode acelerar a compreensão de conceitos e a revisão de soluções em Ruby, desde que o estudante mantenha postura crítica diante das respostas. Mais do que gerar código, a principal contribuição esteve em apoiar comparações de abordagem, esclarecer dúvidas pontuais e fortalecer a análise das decisões de implementação.
