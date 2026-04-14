@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este repositório apresenta a resolução do Homework 01 da disciplina, desenvolvida em Ruby, com foco não apenas na implementação dos exercícios, mas também na reflexão sobre o processo de aprendizagem. O trabalho parte da seguinte questão: como modelos de linguagem de grande porte (LLMs) podem apoiar o estudo da linguagem Ruby e a construção de soluções para problemas de programação?
+Este repositório apresenta a resolução do Homework 01 da disciplina Engenharia de Software (UnB), desenvolvida em Ruby, com foco não apenas na implementação dos exercícios, mas também na reflexão sobre o processo de aprendizagem. O trabalho parte da seguinte questão: como modelos de linguagem de grande porte (LLMs) podem apoiar o estudo da linguagem Ruby e a construção de soluções para problemas de programação?
 
 Ao longo das Partes 01 a 06, foram explorados temas importantes da linguagem, como manipulação de strings, uso de hashes e arrays, tratamento de exceções, recursão, orientação a objetos, herança, metaprogramação básica e extensão de classes nativas. A documentação foi organizada para registrar tanto as soluções produzidas quanto a análise crítica do caminho adotado.
 
